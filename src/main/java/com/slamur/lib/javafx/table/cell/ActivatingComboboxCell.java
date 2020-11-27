@@ -1,16 +1,12 @@
 package com.slamur.lib.javafx.table.cell;
 
+import java.awt.Color;
+import java.util.function.Function;
+
 import com.slamur.lib.javafx.InterfaceUtils;
 import javafx.collections.ObservableList;
-import javafx.scene.control.TableCell;
 import javafx.scene.control.cell.ComboBoxTableCell;
-import javafx.scene.layout.Background;
 import javafx.util.StringConverter;
-import jdk.internal.org.objectweb.asm.tree.analysis.Value;
-
-import java.awt.*;
-import java.util.Locale;
-import java.util.function.Function;
 
 public class ActivatingComboboxCell<ValueType, ItemType> extends ComboBoxTableCell<ValueType, ItemType> {
 
